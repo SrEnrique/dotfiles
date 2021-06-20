@@ -10,7 +10,7 @@
 
 
 
-#### bash -c "\`curl -fsSL https://raw.githubusercontent.com/SrEnrique/dotfiles/master/install.sh \`"
+
 
 **Always be sure to run `rake update` after pulling to ensure plugins are updated**
 
@@ -41,14 +41,9 @@ Please use GitHub Issues for pull requests or bug reports only.
 To get started please run:
 
 ```bash
-bash -c "`curl -fsSL https://raw.githubusercontent.com/SrEnrique/dotfiles/master/install.sh`"
-```
-
-**Note:** YADR will automatically install all of its subcomponents. If you want to be asked
-about each one, use:
-
-```bash
-bash -c "`curl -fsSL https://raw.githubusercontent.com/SrEnrique/dotfiles/master/install.sh`" -s ask
+  git clone git clone --depth=1 https://github.com/SrEnrique/dotfiles.git "$HOME/.yadr"
+  cd $HOME/.yadr
+  bash install.sh
 ```
 
 ## Wait, you're not done! Do this:

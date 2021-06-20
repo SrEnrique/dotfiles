@@ -76,7 +76,7 @@ filetype indent on
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
 
-set nowrap       "Don't wrap lines
+set wrap       "wrap lines
 set linebreak    "Wrap lines at convenient points
 
 " ================ Folds ============================
@@ -119,3 +119,8 @@ set nomodeline
 
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
+
+
+set background=dark
+colorscheme gruvbox
+let g:airline_theme='distinguished'

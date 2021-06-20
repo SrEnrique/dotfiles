@@ -127,3 +127,6 @@
   enabled = true
 [include]
   path = .gitconfig.user
+[user]
+	email = luise.gstlm@gmail.com
+	name = Luis Enrique Gastelum
